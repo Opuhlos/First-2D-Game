@@ -1,12 +1,13 @@
 [gd_scene load_steps=10 format=3 uid="uid://ooelqqvkjvaj"]
 
-[ext_resource type="Script" uid="uid://dcwymwqyi5x7l" path="res://mob.gd" id="1_1qmh0"]
+[ext_resource type="Script" uid="uid://dcwymwqyi5x7l" path="res://scripts/mob.gd" id="1_1qmh0"]
 [ext_resource type="Texture2D" uid="uid://d4ew8x4xt0knu" path="res://art/enemyFlyingAlt_1.png" id="1_b3mxk"]
 [ext_resource type="Texture2D" uid="uid://cedjjfy5tgtf4" path="res://art/enemyFlyingAlt_2.png" id="2_1qmh0"]
 [ext_resource type="Texture2D" uid="uid://bv2mxsimv85aq" path="res://art/enemySwimming_1.png" id="3_gfurk"]
 [ext_resource type="Texture2D" uid="uid://dqfkd5ga80n86" path="res://art/enemySwimming_2.png" id="4_ieysi"]
 [ext_resource type="Texture2D" uid="uid://dhhjhoaxd7g7l" path="res://art/enemyWalking_1.png" id="5_cixyi"]
 [ext_resource type="Texture2D" uid="uid://be1b30ppniv13" path="res://art/enemyWalking_2.png" id="6_7ulmv"]
+
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_pcqmr"]
 animations = [{
