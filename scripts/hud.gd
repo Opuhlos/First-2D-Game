@@ -20,7 +20,7 @@ func show_gameover() -> void:
 	# Wait until the MessageTimer has counted down
 	await $MessageTimer.timeout
 	
-	$Message.text = "Dodge the Creeps!"
+	$Message.text = "Graze the pipis!"
 	$Message.show()
 	
 	# Make a one-shot timer and wait for it to finish

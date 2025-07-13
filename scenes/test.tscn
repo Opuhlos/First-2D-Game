@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://c027ucfen6sq3"]
+
+[ext_resource type="PackedScene" uid="uid://cqa5vcvtvedhf" path="res://scenes/player.tscn" id="1_errlg"]
+[ext_resource type="PackedScene" uid="uid://ooelqqvkjvaj" path="res://scenes/mob.tscn" id="2_bl13t"]
+
+[node name="Node" type="Node"]
+
+[node name="Player" parent="." instance=ExtResource("1_errlg")]
+position = Vector2(536, 336)
+debug_mode = false
+
+[node name="Pipis3" parent="." instance=ExtResource("2_bl13t")]
+position = Vector2(304, 312)
+
+[node name="Pipis2" parent="." instance=ExtResource("2_bl13t")]
+position = Vector2(200, 312)
+
+[node name="Pipis" parent="." instance=ExtResource("2_bl13t")]
+position = Vector2(200, 224)

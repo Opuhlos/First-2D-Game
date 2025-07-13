@@ -4,8 +4,8 @@
 [ext_resource type="Texture2D" uid="uid://cetcgv1xtirmt" path="res://art/pipis.png" id="2_xmakj"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_jbnni"]
-radius = 18.0
-height = 54.0
+radius = 30.0
+height = 90.0
 
 [node name="Pipis" type="RigidBody2D" groups=["mobs"]]
 collision_mask = 0
@@ -14,7 +14,7 @@ script = ExtResource("1_yy12j")
 metadata/_edit_group_ = true
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-scale = Vector2(3, 3)
+scale = Vector2(5, 5)
 texture = ExtResource("2_xmakj")
 
 [node name="VisibleOnScreenEnabler2D" type="VisibleOnScreenEnabler2D" parent="." groups=["mobs"]]

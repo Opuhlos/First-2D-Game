@@ -3,7 +3,6 @@
 [ext_resource type="FontFile" uid="uid://bwp3nipo75w5c" path="res://fonts/Xolonium-Regular.ttf" id="1_37p78"]
 [ext_resource type="Script" uid="uid://dvwsv1bhcv8rx" path="res://scripts/hud.gd" id="1_64ctp"]
 
-
 [node name="HUD" type="CanvasLayer"]
 script = ExtResource("1_64ctp")
 
